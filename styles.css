@@ -1,0 +1,53 @@
+:root {
+    font-size: 16px; /* Adjust this value to increase or decrease overall font size */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    color: #4a4a4a;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.subtitle {    
+    font-family: "Kanit", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 40px;
+    margin-top: -5px;
+}
+
+.last-updated {
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.policy-content h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
